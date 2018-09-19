@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+   <ul id="social"></ul>
+
+
+   <script>
+
+       var data = {
+
+           name : "Manny Navarro",
+           title : "Instructor",
+           courses : [
+
+               {"php" : "https://emaginas.com"},
+               {"javascript" : "https://emaginas.com"},
+               {"yotube" : "http://mannynavarro.com"},
+               {"twitter" : "https://twitter.com/Manny__Navarro"},
+               {"facebook" : "https://www.facebook.com/emaginasLLC/"}
+
+           ]
+       };
+       var output = "";
+       for(var i = 0; i <= data.courses.length; i++){
+           for(key in data.courses[i]) {
+               //console.log(i)
+               if(data.courses[i].hasOwnProperty(key)){
+                    output += '<li>' +
+                    '<a href="' + data.courses[i][key] +
+                    '">' + key + '</a>' +
+                    '</li>';
+               }
+           }
+       }
+
+       var update = document.getElementById('social');
+
+       update.innerHTML = output;
+
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>
