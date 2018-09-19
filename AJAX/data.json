@@ -1,0 +1,11 @@
+{
+	"name": "Manny Navarro",
+	"title": "Instructor",
+	"courses": [
+		{"php": "https://emaginas.com"},
+        {"javascript": "https://emaginas.com"},
+        {"youtube": "https://mannynavarro.com"},
+        {"twitter": "https://twitter.com/Manny__Navarro"},
+        {"facebook": "https://www.facebook.com/manny.navarro.355"}
+    ]
+}
