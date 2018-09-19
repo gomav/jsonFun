@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="loopThroughObject.js"></script>
+</head>
+<body>
+    <ul id="social"></ul>
+
+    <script>
+        var output = "";
+
+            for(key in data.courses){
+
+                output += '<li>' +
+                '<a href="' + data.courses[key] +
+                '">' + key + '</a>' +
+                '</li>';
+                console.log(output);
+    }
+        var update = document.getElementById('social');
+            update.innerHTML = output;
+    </script>
+
+</body>
+</html>
