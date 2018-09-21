@@ -1,11 +1,15 @@
 {
-	"name": "Manny Navarro",
+	"name": "Edwin Diaz",
 	"title": "Instructor",
-	"courses": [
-		{"php": "https://emaginas.com"},
-        {"javascript": "https://emaginas.com"},
-        {"youtube": "https://mannynavarro.com"},
-        {"twitter": "https://twitter.com/Manny__Navarro"},
-        {"facebook": "https://www.facebook.com/manny.navarro.355"}
-    ]
+	"courses": [{
+		"php": "http://edwindiaz.com"
+	}, {
+		"javascript": "http://edwindiaz.com"
+	}, {
+		"youtube": "http://edwindiaz.com"
+	}, {
+		"twitter": "http://edwindiaz.com"
+	}, {
+		"facebook": "http://facebook.com/ThisIsEdwinDiaz"
+	}]
 }
