@@ -1,11 +1,9 @@
 'use strict';
 $(document).ready(function(){
 
-
     $.getJSON('data.json', function(data){
 
             var output = "";
-
 
            for(var i = 0; i <= data.courses.length; i++){
 
@@ -18,29 +16,16 @@ $(document).ready(function(){
                         '">' + key + '</a>' +
                         '</li>';
 
-
                    }
-
-
 
                }
 
-
-
            }
-
-
 
        var update = document.getElementById('social');
 
        update.innerHTML = output;
 
-
-
-
     });// jQuery Json
-
-
-
 
 }); // ready jQuey
