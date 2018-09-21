@@ -1,0 +1,15 @@
+{
+	"name": "Edwin Diaz",
+	"title": "Instructor",
+	"courses": [{
+		"php": "http://edwindiaz.com"
+	}, {
+		"javascript": "http://edwindiaz.com"
+	}, {
+		"youtube": "http://edwindiaz.com"
+	}, {
+		"twitter": "http://edwindiaz.com"
+	}, {
+		"facebook": "http://facebook.com/ThisIsEdwinDiaz"
+	}]
+}
